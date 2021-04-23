@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Zector;
+    src: url("../fonts/zect.otf");
+}
+
+@font-face {
+    font-family: Norm;
+    src: url("../fonts/norm.ttf");
+}
+
+@font-face {
+    font-family: Future;
+    src: url("../fonts/future.ttf");
+}
+
+body {
+    font-family: Norm;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+div {
+    align-items: center;
+}
+
+h1 {
+    font-family: Future;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    letter-spacing: -0.2em;
+}
+
+p {
+    font-family: Norm;
+    font-size: 24px;
+    color: #cccccc;
+    text-align: center;
+}
+
+span {
+    background-color: #484b4a;
+}
+
+.verticalSeparator {
+    height: 20px;
+    width: 100%;
+}
+
+.horizontalSeparator {
+    height: 100%;
+    width: 20px;
+}
+
+#nav {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+}
+
+#nav ul {
+    margin: 0%;
+    margin-block: 0em;
+    padding: 0;
+}
+
+#nav li {
+    font-family: Zector;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width: 24.5%;
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+#nav li:last-child {
+    border-right: none;
+}
+
+#nav li a {
+    font-family: Zector;
+    font-size: 24px;
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid #cccccc;
+}
+
+#nav li a:hover {
+    background-color: #484b4a;
+}
+
+#here {
+    background-color: #484b4a;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    padding: 10px;
+    background-color: #484b4a;
+    color: #cccccc;
+    text-align: center;
+    align-content: center;
+}
+
+#footer div {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+}
+
+.social {
+    align-items: center;
+}
+
+.social p {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.socialLogo {
+    vertical-align: middle;
+    width: 50px;
+}
