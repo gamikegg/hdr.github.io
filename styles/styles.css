@@ -205,6 +205,34 @@ span {
     background-color: #484b4a;
 }
 
+#spotify {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#spotify-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    text-align: center;
+}
+
+#spotify-link a {
+    font-family: Zector;
+    font-size: 24px;
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+#spotify-link a:hover {
+    background-color: #484b4a;
+}
+
 #nav-filler {
     height: 44px;
     width: 100%;
@@ -226,4 +254,23 @@ span {
     border: 1px solid #cccccc;
     float: left;
     width: 40%;
+}
+
+.disc {
+    color: #dddddd;
+    font-size: 28px;
+    vertical-align: middle;
+    width: 70%;
+    margin-left: auto;
+}
+
+.disc img {
+    vertical-align: middle;
+}
+
+.album {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
 }
